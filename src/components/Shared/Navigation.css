@@ -1,0 +1,44 @@
+.my-color {
+  background-image: linear-gradient(135deg, #fec163 10%, #de4313 100%);
+}
+.button-design {
+  /* border-radius: 5px 100px 5px; */
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  font-weight: bolder;
+  /* box-shadow: 0px 15px 15px 0px #ff8c00; */
+}
+
+/* common button designs */
+.btn-grad-common {
+  background-image: linear-gradient(
+    to right,
+    #1a2980 0%,
+    #26d0ce 51%,
+    #1a2980 100%
+  );
+}
+.btn-grad-common {
+  /* margin: 10px; */
+  /* padding: 15px 45px; */
+  text-align: center;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  font-weight: bolder;
+}
+
+.btn-grad-common:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
